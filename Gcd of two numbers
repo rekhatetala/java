@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Gcdrec {
+  int Gcdrec(int m, int n) {
+    if (n == 0) {
+      return m;
+    }
+    return Gcdrec(n, m % n);
+  }
+  public static void main(String[] args) {
+    Gcdrec ob = new Gcdrec();
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter two numbers to find GCD: ");
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int g = ob.Gcdrec(a, b);
+    System.out.println("GCD of the given numbers is " + g);
+  }
+}
