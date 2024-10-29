@@ -21,3 +21,12 @@ public class StringBufferDemo{
       System.out.println("The resulatent string is: "+sb5);
   }
 }
+
+
+Sample output:
+The resulatent string is: Hello
+The resulatent string is: HelloJava
+The resulatent string is: Hejavallo
+The resulatent string is: Hjavalo
+The resulatent string is: Hlo
+The resulatent string is: olleH
