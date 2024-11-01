@@ -1,0 +1,14 @@
+import java.io.*;
+import java.lang.*;
+class StringImmutable 
+{
+  public static void main(String[] args)
+  {
+    String s1="Rekha";
+    s1.concat("Tetala");
+    System.out.println("String s1 = "+s1);
+    String s2="Rekha";
+    String s3=s2.concat("Tetala");
+    System.out.println("String s3 = "+s3);
+  }
+}
